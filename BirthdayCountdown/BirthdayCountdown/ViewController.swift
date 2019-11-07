@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         resetLabels()
     }
     
+    func sentinelFunc() {
+        //hello!! this is to show version control :^)
+    }
+    
+
+    
     // called whenever the date changes && the name isn't empty
     // or called whenever the name changes (default is current date, countdown is 0)
     func calculateCountdown(today: Date, birthday: Date) -> Int {
@@ -91,6 +97,8 @@ class ViewController: UIViewController {
             return
         }
     }
+    
+
     
 }
 
